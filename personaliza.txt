@@ -1,0 +1,9 @@
+#2ecc71
+#08088A
+
+
+index -> personaliza a página inicial.
+index-2 é necessário para retornar a página principal
+para editar as atribuições. Texto que desaparece edite o arquivo custom.js na pasta js
+As cores da página podem ser personalizadas mudando a cor do arquivo style.css na pasta css
+está sendo utilizado o background:#6E6E6E. Outras opções de cores estão disponíveis no arquivo style-costumizer.css
