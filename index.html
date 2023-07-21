@@ -1,229 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Cristiano - Página Pessoal" />
-    <meta name="author" content="iqonicthemes.in" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    <title>Cristiano - Página Pessoal</title>
+    <title>John Doe - Personal CV Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon2.ico" />
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;Raleway:400,500,600,700,800" rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <!-- Themify Fonts -->
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Poppins&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup/magnific-popup.css" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- owl-carousel -->
-    <link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" />
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-    <!-- Style customizer (Remove these two lines please) -->
-    <link rel="stylesheet" href="#" data-style="styles">
-    <link rel="stylesheet" href="css/style-customizer.css" />
-
-    <!-- custom style -->
-    <link rel="stylesheet" href="css/custom.css" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110149418-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-110149418-1');
-</script>
-
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-
-    <!-- loading -->
-
-    <div id="loading" class="purple-bg">
-        <div id="loading-center">
-            <div data-loader="spinner"></div>
-        </div>
-    </div>
-
-    <!-- loading End -->
-
-
-    <!-- Header  -->
-    <header class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light white-bg">
-                    <div class="col-md-3 purple-bg">
-                        <a class="navbar-brand" href="index-2.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
-                    </div>
-                    <div class="col-md-9">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="ti-menu"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                                <li class="nav-item active">
-                                    <a class="nav-link" data-type="page-transition" href="index-2.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="about-us.html">About me</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="resume.html">resume</a>
-
-                                </li>
-
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="portfolio.html">portfolio</a>
-                                </li> -->
-<!--	
-								
-                                <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="services.html">services</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="blog.html">blog</a>
--->
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-type="page-transition" href="contact-us.html">contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                <img class="w-100 img-fluid mb-4" src="img/cr_edinburgh.jpg" alt="Image">
+                <h1 class="mt-2">Cristiano Oliveira</h1>
+                <div class="mb-4" style="height: 22px;">
+                    <h4 class="typed-text-output d-inline-block text-body"></h4>
+                    <div class="typed-text d-none">Data Scientist, Python Developer
+                        Developer</div>
+                </div>
+                <div class="d-flex justify-content-center mt-auto mb-3">
+                    <!-- <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a class="mx-2" href="https://www.facebook.com/profile.php?id=100010678895005"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://www.linkedin.com/in/cristiano-ferreira-231a31140/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="mx-2" href="https://instagram.com/cristiano_f2132?igshid=MmIzYWVlNDQ5Yg=="><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="mx-2" href="https://github.com/Cristiano2132"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="d-flex align-items-end justify-content-between">
+                    <a href="resume-cv-design/dist/cv.html" class="btn btn-block border-primary ">Download CV</a>
+                    <!-- <a href="#contact" class="btn btn-block btn-scroll">Contact Me</a> -->
+                </div>
+            </div>
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
             </div>
         </div>
-    </header>
-    <!-- Header End -->
-
-
-    <!-- Begin Content -->
-    <div class="main-container">
-        <!-- About us -->
-        <section class="me-home wrapper">
-            <div class="container-fluid h-100">
-                <div class="row row-eq-height h-100">
-                    <div class="col-md-3 purple-bg">
-                        <div class="iq-objects">
-                            <span class="iq-objects-01">
-                                    <img class="img-fluid" src="images/01.png" alt="drive">
-                                </span>
-                        </div>
+        <div class="content">
+            <!-- About Start -->
+            <div class="container bg-white py-5">
+                <div class="row px-3">
+                    <div class="col-12">
+                        <h2 class="w3-text-grey w3-padding-16">About Me</h2>
                     </div>
-                    <div class="col-md-9 main-content align-self-center">
-                        <div id="boxscroll" class="iq-home">
-                            <div class="home-deta iq-mt-90">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="boder-img">
-                                            <img src="images/me.jpg" class="img-fluid" alt="#">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8 content-deta">
-                                        <h2 class="iq-tw-8 ">Hello,<br>I am Cristiano Ferreira</h2>
-                                        <div id="typer"></div>
-                                        <p class="lead iq-tw-4">
-                                            I have been working at <a href="https://nuvem.net/"> Nuvem Tecnologia</a>
-                                            as a data scientist since july, 2020 and 
-                                            I am a collaborator in the Laboratory of Analysis and Research in Applied Statistics (LAPEA).<a href="https://lapea.ufv.br/"> (LAPEA).</a>
-                                            </p>
-                                        <a class="button iq-mt-30" href="MyCV.html">My CV</a>
-                                    </div>
-                                </div>
+                    <div class="col-12">
+                        <p>My background in Mathematics has equipped me with a solid understanding of key mathematical
+                            concepts, including linear algebra, calculus, statistics, and probability. This knowledge
+                            forms the basis for my data analysis and modelling approach. I am well-versed in using
+                            essential libraries such as Pandas, NumPy, and SciPy, enabling me to perform robust data
+                            analysis and generate valuable insights.
+
+                            Working in Agile environments, I have a track of record of successfully delivering projects
+                            within deadlines. I am habituated to following Agile methodologies and working as part of
+                            cross-functional teams, ensuring coordination and efficient workflow.
+
+                            In terms of my development expertise, I have extensive experience with Python and the
+                            Scikit-Learn library. I have successfully developed and implemented regression,
+                            classification, and clustering models achieving accurate predictions and actionable
+                            insights. My experience in these areas allows me to make significant contributions to
+                            data-driven decision-making processes.
+
+                            I excel in problem-solving, attention to detail, and effective communication of complex
+                            concepts. With my combined knowledge as a Data Scientist and Developer, I can translate
+                            mathematical concepts into practical solutions that resonate with non-technical
+                            stakeholders.
+
+                            Overall, my ability to combine mathematical expertise, data science skills, and software
+                            development capabilities positions me as a valuable asset to any team focused on leveraging
+                            data for strategic decision-making and driving business success. </p>
+                        <div class="row">
+                            <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Name:</h5> Cristiano Oliveira
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Birthday:</h5> 27 December 1990
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Degree:</h5> PhD
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Experience:</h5> 3 Years
+                            </div>
+                            <!-- <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Phone:</h5> +012 345 6789 -->
+                            <!-- </div> -->
+
+                            <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Address:</h5> North Circular Road, Dublin, Ireland
+                            </div>
+                            <!-- <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Freelance:</h5> Available
+                            </div> -->
+                            <div class="col-sm-6 py-1">
+                                <h5 class="d-inline text-primary">Email:</h5> cristiano2132.ufv@gmail.com
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- About Us End -->
-    </div>
-    <!-- Main Content End -->
+            <!-- About End -->
 
 
-<!-- Footer -->
+            <!-- Skills Start -->
+            <div class="container bg-white py-5">
+                <div class="row px-3">
+                    <div class="col-12">
+                        <h2 class="w3-text-grey w3-padding-16">Skills</h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Python</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">R</p>
+                                <p class="mb-2">70%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Machine Learning</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
 
-<footer>
-    <div class="container-fluid">
-        <div class="row">
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Artificial Intelligence</p>
+                                <p class="mb-2">70%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="1000"></div>
+                            </div>
+                        </div>
 
-            <div class="col-md-9">
-                <ul class="follow-us pull-right">
-                    <li>Follow Me :</li>
-                    <!-- <li><a href="https://www.facebook.com/people/Cristiano-de-Oliveira/100010678895005"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://github.com/Cristiano2132"><i class="fa fa-github"></i></a></li> -->
-                    <li><a href="https://www.linkedin.com/in/cristiano-ferreira-231a31140/"><i class="fa fa-linkedin"></i></a></li>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">POO</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Remote Sensing</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Statistical inference</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Design of Experiments</p>
+                                <p class="mb-2">90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
 
-                </ul>
+                    </div>
+                </div>
             </div>
+            <!-- Skills End -->
+
+            <!-- Work Experience Starts -->
+            <div class="container bg-white py-5">
+                <div class="row px-3">
+
+                    <h2 class="w3-text-grey w3-padding-16"><i
+                            class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience
+                    </h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Data Scientist and Python Developer / Nuvem Tecnologia</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2022 -
+                            <span class="w3-tag w3-teal w3-round">Current</span>
+                        </h6>
+                        <p>Nuvem Tecnologia is a Mato Grosso-based company that specializes in developing
+                            cutting-edge technological solutions.
+                            With over 12 years of expertise in the software and applications market, we have
+                            cultivated a culture deeply rooted in innovation,
+                            creativity, and a genuine concern for people. These core values resonate throughout
+                            our organization, driving us to deliver
+                            exceptional value to both our esteemed partners and valued customers.</p>
+                        <hr>
+                    </div>
+
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Data Scientist / Nuvem Tecnologia</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2020 - Aug
+                            2022
+                        </h6>
+                        <p>Nuvem Tecnologia is a Mato Grosso-based company that specializes in developing
+                            cutting-edge technological solutions.
+                            With over 12 years of expertise in the software and applications market, we have
+                            cultivated a culture deeply rooted in innovation,
+                            creativity, and a genuine concern for people. These core values resonate throughout
+                            our organization, driving us to deliver
+                            exceptional value to both our esteemed partners and valued customers.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Project and Research Coordinator / Laboratory of Analysis and
+                                Research in Applied Statistics (LAPEA)</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2020 - Aug
+                            2020
+                        </h6>
+                        <p>LAPEA, based at the Federal University of Viçosa, works to solve problems related to
+                            research in general,
+                            statistical advice, and consultancy, developing specific solutions for each issue.
+                            One of its objectives is to improve the quality of research and technical and
+                            scientific publications in the academic community. Also, as a multidisciplinary
+                            group, LAPEA ensures greater integration of its members with different
+                            research areas, favoring learning and professionalism from the application
+                            of its academic knowledge in applied situations. </p><br>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Work Experience Ends -->
+
+            <!-- Education Starts -->
+            <div class="container bg-white py-5">
+                <div class="row px-3">
+
+
+                    <h2 class="w3-text-grey w3-padding-16"><i
+                            class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education
+                    </h2>
+                    <div class="container">
+                        <h5 class="w3-opacity"><b>Federal University of Viçosa</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018-2022</h6>
+                        <p>PhD in Applied Statistics and Biometrics</p>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <h5 class="w3-opacity"><b>Federal University of Viçosa</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2018
+                        </h6>
+                        <p>Master Degree in Applied Statistics and Biometrics.</p>
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <h5 class="w3-opacity"><b>Federal University of Viçosa</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2016
+                        </h6>
+                        <p>Degree in Mathematics</p><br>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- Education Ends -->
+
+
+
+            <!-- Subscribe Start -->
+            <!-- <div class="container bg-white py-5 px-0">
+                <div class="bg-primary text-center p-5">
+                    <h1 class="text-white font-weight-bold">Subscribe My Newsletter</h1>
+                    <p class="text-white">Subscribe and get my latest article in your inbox</p>
+                    <form class="form-inline justify-content-center">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-0 p-4" placeholder="Your Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark px-4" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+            <!-- Subscribe End -->
+
+
+            <!-- Portfolio Start -->
+
+            <div class="portfolio" id="portfolio">
+
+                <div class="content-header">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".ml">Machine Learning</li>
+                            <li data-filter=".rs">Remote Sensing</li>
+                            <li data-filter=".da">Data Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item ml">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/bopt.png" class="img-fluid" alt="">
+                                <!-- <a href="img/ml.jpg" data-lightbox="portfolio" data-title="portfolio"
+                                    class="link-preview" title="Preview"><i class="fa fa-eye"></i></a> -->
+                                <a href="https://github.com/Cristiano2132/bayesian_optimization" class="link-details"
+                                    title="More Details"><i class="fa fa-link"></i></a>
+                                <a class="portfolio-title"
+                                    href="https://github.com/Cristiano2132/bayesian_optimization">Bayesian Optimization
+                                    <span>Machine Learning</span></a>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item ml">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/ai.png" class="img-fluid" alt="">
+                                <!-- <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio"
+                                    data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a> -->
+                                <a href="https://github.com/Cristiano2132/creating_a_neural_network"
+                                    class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <a class="portfolio-title" href="#">Creating a Neural Network<span>Machine
+                                        Learning</span></a>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item rs">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/rmsen.jpeg" class="img-fluid" alt="">
+                                <!-- <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"
+                                    data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a> -->
+                                <a href="https://github.com/Cristiano2132/tutorial_spatial_data" class="link-details"
+                                    title="More Details"><i class="fa fa-link"></i></a>
+                                <a class="portfolio-title"
+                                    href="https://github.com/Cristiano2132/tutorial_spatial_data">Remote Sensing -
+                                    Raster and Shape Files<span>Remote Sensing</span></a>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-8 portfolio-item da">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/eda.jpeg" class="img-fluid" alt="">
+                                <!-- <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"
+                                    data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a> -->
+                                <a href="https://github.com/Cristiano2132/eda" class="link-details"
+                                    title="More Details"><i class="fa fa-link"></i></a>
+                                <a class="portfolio-title" href="https://github.com/Cristiano2132/eda">Exploratory Data
+                                    Analysis<span>Data Analysis</span></a>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-8 portfolio-item da">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/imgs.png" class="img-fluid" alt="">
+                                <!-- <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"
+                                    data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a> -->
+                                <a href="https://github.com/Cristiano2132/article_image_segmentation"
+                                    class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <a class="portfolio-title"
+                                    href="https://github.com/Cristiano2132/article_image_segmentation">Image
+                                    Segmentation<span>Data Analysis</span></a>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-8 portfolio-item #">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/pythonproj.webp" class="img-fluid" alt="">
+                                <!-- <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"
+                                    data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a> -->
+                                <a href="https://github.com/Cristiano2132/tutorial.projects.python" class="link-details"
+                                    title="More Details"><i class="fa fa-link"></i></a>
+                                <a class="portfolio-title"
+                                    href="https://github.com/Cristiano2132/tutorial.projects.python">Tutorial Projects
+                                    in Python<span>Python</span></a>
+                            </figure>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Portfolio End
+
+
+
+
+        !-- Footer Start -->
+            <div class="container-fluid bg-white pt-5 px-0">
+                <div class="container bg-dark text-light text-center py-5">
+                    <div class="d-flex justify-content-center mb-4">
+                        <a class="btn btn-outline-primary btn-square mr-2" href="https://github.com/Cristiano2132"><i
+                                class="fab fa-github"></i></a>
+                        <a class="btn btn-outline-primary btn-square mr-2"
+                            href="https://www.facebook.com/profile.php?id=100010678895005"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square mr-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML
+                            Codex</a></p>
+                </div>
+            </div>
+            <!-- Footer End -->
         </div>
     </div>
-</footer>
 
-<!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="js/jquery-min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <!-- jquery-appear -->
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-
-    <!-- owl-carousel -->
-    <script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
-
-    <!-- jquery-typer -->
-    <script type="text/javascript" src="js/jquery.typer.js"></script>
-
-    <!-- jquery-isotope -->
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-
-    <!-- Magnific-Popup -->
-    <script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- jquery Nicescroll -->
-    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
-
-    <!-- jquery Retina -->
-    <script type="text/javascript" src="js/retina.min.js"></script>
-
-    <!-- Style Customizer -->
-    <script type="text/javascript" src="js/style-customizer.js"></script>
-
-    <!-- Custom -->
-    <script type="text/javascript" src="js/custom.js"></script>
-
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
-
-<!-- Mirrored from iqonic.design/themes/profyl/simple-color/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Apr 2020 21:35:09 GMT -->
 </html>
